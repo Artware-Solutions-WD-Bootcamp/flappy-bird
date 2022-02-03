@@ -7,13 +7,14 @@ body {
   background-color: darkgray;
 }
 
-#start-btn, #restart-btn {
+#start-btn,
+#restart-btn {
   background-color: green;
   color: white;
   padding: 20px;
   font-size: 20px;
   margin-top: 40px;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .container {
@@ -22,4 +23,9 @@ body {
   justify-content: center;
   align-items: center;
   margin: 50px;
+}
+
+#my-canvas,
+#gameover-screen {
+  display: none;
 }
